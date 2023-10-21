@@ -42,6 +42,6 @@ const server = http.createServer(async (req, res) => {
 	});
 });
 
-server.listen(3000, () => {
+server.listen(3001, () => {
 	console.log(`server is listening on port 3000`);
 });
