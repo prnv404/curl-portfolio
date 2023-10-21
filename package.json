@@ -1,0 +1,19 @@
+{
+	"name": "portfolio",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"prettier": "prettier --write .",
+		"start": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/node": "^20.8.7",
+		"nodemon": "^3.0.1",
+		"prettier": "^3.0.3",
+		"ts-node": "^10.9.1"
+	}
+}
